@@ -38,9 +38,9 @@
 }
 
 nav a{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Nanum Myeongjo', serif;
 	color: white;
-	font-size: 17px;
+	font-size: 20px;
 	padding: 0px 0px;
 	text-transform: uppercase;
 	text-decoration: none;
@@ -77,6 +77,8 @@ nav a:hover{
 }
 
 .titolo{
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 35px;
 	color: #000080;
 	font-weight: bolder;
 	margin: 20px;
@@ -92,6 +94,8 @@ p{
 }
 
 .h{
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 35px;
 	color: #000080;
 	font-weight: bolder;
 	text-align: center;
@@ -104,8 +108,7 @@ p{
 
 .text{
 	padding: 2%;
-	font-family: 'Nanum Myeongjo', serif;
-	font-size: 16px;
+	font-size: 15px;
 	text-align: center;
 }
 
@@ -150,14 +153,16 @@ p{
   }
 }
 
-
-
 .servizi{
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: bold;
 	color: white;
 	text-align: center;
 }
 
 .servizi2{
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: bold;
 	color: #000080;
 	text-align: center;
 }
@@ -217,10 +222,11 @@ footer{
 
 .fa-brands:hover {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 /*Spazio*/
 .space{
 	margin: 50px;
 }
+
