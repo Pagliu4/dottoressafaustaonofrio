@@ -37,6 +37,10 @@
 	height: 500px;
 }
 
+nav{
+	background-color: #000080!important;
+}
+
 nav a{
 	font-family: 'Nanum Myeongjo', serif;
 	color: white;
@@ -114,8 +118,7 @@ p{
 
 /*Colonne Servizi*/
 .text-ser{
-	font-family: 'Montserrat', sans-serif;
-	color: white;
+	color: black;
 	font-size: 16px;
 	padding: 2%;
 }
@@ -128,12 +131,7 @@ p{
   float: left;
   width: 25%;
   padding: 10px;
-  transition: transform .5s;
-}
-
-.column:hover{
-	z-index: 1;
-	transform: scale(1.01);
+  border-left: 2px solid #000080;
 }
 
 /* Clear floats after the columns */
@@ -156,15 +154,10 @@ p{
 .servizi{
 	font-family: 'Nanum Myeongjo', serif;
 	font-weight: bold;
-	color: white;
+	color: #000080;
 	text-align: center;
 }
 
-.servizi2{
-	font-family: 'Nanum Myeongjo', serif;
-	font-weight: bold;
-	color: #000080;
-	text-align: center;
 }
 /*Orari di apertura*/
 .hours{
@@ -195,7 +188,7 @@ p{
 
 /*Footer*/
 footer{
-	background-color: #e6e6fa;
+	background-color: #000080;
 }
 
 .contenitore {
@@ -207,7 +200,7 @@ footer{
 }
 
 .f-abstract{
-	color: #000080;
+	color: white;
 	opacity: 0.5;
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 0;
@@ -215,14 +208,14 @@ footer{
 
 .fa-brands {
 	font-size: 2em;
-	color: #000080;
+	color: white;
     float:left;
 	margin: 10px;
 }
 
 .fa-brands:hover {
 	text-decoration: none;
-	color: black;
+	color: #e6e6fa;
 }
 
 /*Spazio*/
@@ -230,3 +223,7 @@ footer{
 	margin: 50px;
 }
 
+/*Separatore*/
+hr.solid {
+	border-top: 5px solid #000080;
+}
