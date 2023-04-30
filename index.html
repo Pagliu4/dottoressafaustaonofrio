@@ -56,20 +56,35 @@
 			</nav>
 
 			<!--Foto e testo Mi Presento -->
-			</br>
+			<a name="secondo"></a><h2 class="titolo">Mi presento</h2>
 			 	<div class="container rowDiv">
 			 		<div class="row">
 				 		<div class="col-md photo"> 
 							<img id="fotodoct" src="dottoressafausta2.jpg" alt="Foto Dottoressa Onofrio"/>
 						</div>
 
-				       	<div class="col-lg div-pres"><a name="secondo"></a>
-							<h2 class="h"> Mi presento </h2> 
-				        	<p class="text"> Sono la Dottoressa Fausta Onofrio, psicologa iscritta all’ Ordine degli Psicologi della Lombardia (n. 26279). 
+				       	<div class="col-lg div-pres">
+							<div class="bottoni">
+								<button class="btn" onclick="change_text()">Chi sono</button> <button class="btn" onclick="change_text2()">Formazione</button>
+							</div>
+				        	<p class="text" id="demo"> Sono la Dottoressa Fausta Onofrio, psicologa iscritta all’ Ordine degli Psicologi della Lombardia (n. 26279). 
 				        		</br>I miei studi si sono prevalentemente concentrati su: psicologia cognitiva, psicologia clinica, psicobiologia, neuropsicologia, riabilitazione cognitiva, psicopatologia, malattie neurodegenerative.
 				        		</br>Ho perfezionato la mia formazione attraverso corsi di Alta formazione ed attualmente mi sto specializzando in Neuropsicologia Clinica.
 				        		</br>Le principali condizioni che tratto sono: ansia, stress, depressione, problemi di coppia, disfunzioni sessuali, difficoltà relazionali, difficoltà lavorative, disturbi cognitivi, malattie neurodegenerative, demenze, lesioni post ictali, lesioni da trauma cranico.
 				        	</p>
+
+				        	<script>
+								function change_text(){
+    								document.getElementById("demo").innerHTML = "Sono la Dottoressa Fausta Onofrio, psicologa iscritta all’ Ordine degli Psicologi della Lombardia (n. 26279). <br />I miei studi si sono prevalentemente concentrati su: psicologia cognitiva, psicologia clinica, psicobiologia, neuropsicologia, riabilitazione cognitiva, psicopatologia, malattie neurodegenerative.<br />Ho perfezionato la mia formazione attraverso corsi di Alta formazione ed attualmente mi sto specializzando in Neuropsicologia Clinica.<br />Le principali condizioni che tratto sono: ansia, stress, depressione, problemi di coppia, disfunzioni sessuali, difficoltà relazionali, difficoltà lavorative, disturbi cognitivi, malattie neurodegenerative, demenze, lesioni post ictali, lesioni da trauma cranico.";
+								}
+							</script>
+
+				        	<script>
+								function change_text2(){
+    								document.getElementById("demo").innerHTML = "Laurea triennale in Scienze e tecniche di Psicologia Cognitiva,<br />Università di Trento (2019) <br />Laurea Magistrale in Psicologia percorso Neuroscienze,<br />Università di Trento (2021)<br /> Tirocinio Professionalizzante presso ICS Maugeri Castel Goffredo (MN), ambito clinico, neuropsicologico e neuroriabilitativo (2022)<br /> Corso di Alta Formazione in “Affettività e Sessualità della Coppia”,<br />Mi.CAL, Milano (2022)<br /> Corso di Alta Formazione in “La complessità delle condizioni dello spettro autistico di livello 1 – diagnosi, intervento e nuove prospettive cliniche”,<br />Mi.CAL, Milano (2022).";
+								
+								}
+							</script>
 						</div>
 					</div>
 				</div> 
@@ -170,9 +185,9 @@
 			<!--Footer-->
 			<footer>
 				<div class="contenitore">
-					<a class="fa-brands fa-instagram" href="http://bit.ly/Tonic_instaram%E2%80%8B" target="_blank"></a>
-					<a class="fa-brands fa-facebook" href="https://bit.ly/3nxpAeo" target="_blank"></a>
-					<a class="fa-brands fa-linkedin" href="https://bit.ly/3nxpAeo" target="_blank"></a>
+					<a class="fa-brands fa-instagram" href="https://www.instagram.com/dott.ssa_faustaonofrio/" target="_blank"></a>
+					<a class="fa-brands fa-facebook" href="https://www.facebook.com/fausta.onofrio" target="_blank"></a>
+					<a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/fausta-onofrio-543252266/" target="_blank"></a>
 				</div>
 
 				<p class="f-abstract">Partita Iva: 02699550204</p>
