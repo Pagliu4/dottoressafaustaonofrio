@@ -38,12 +38,12 @@
 }
 
 nav{
-	background-color: #000080!important;
+	background-color: #e7d6b4f7!important;
 }
 
 nav a{
 	font-family: 'Nanum Myeongjo', serif;
-	color: white;
+	color: #000080!important;
 	font-size: 20px;
 	padding: 0px 0px;
 	text-transform: uppercase;
@@ -52,6 +52,7 @@ nav a{
 }
 
 nav a:hover{
+	color: black!important;
 	transition: .5s;
 }
 
@@ -107,6 +108,8 @@ p{
 	font-size: 25px!important;
 	color: #000080!important;
 	font-weight: bolder!important;
+	border-radius: 5rem!important;
+    border: 1px solid #000080!important;
 }
 
 .div-pres{
@@ -192,7 +195,7 @@ p{
 
 /*Footer*/
 footer{
-	background-color: #000080;
+	background-color: #e7d6b4f7;
 }
 
 .contenitore {
@@ -204,7 +207,7 @@ footer{
 }
 
 .f-abstract{
-	color: white;
+	color: #000080;
 	opacity: 0.5;
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 0;
@@ -212,14 +215,14 @@ footer{
 
 .fa-brands {
 	font-size: 2em;
-	color: white;
+	color: #000080;
     float:left;
 	margin: 10px;
 }
 
 .fa-brands:hover {
 	text-decoration: none;
-	color: #e6e6fa;
+	color: black;
 }
 
 /*Spazio*/
